@@ -1,19 +1,21 @@
 --Cómo colaborar en un proyecto en GitHub
+PASO A PASO 
+1-Fork del repositorio
+2-Clonar el repositorio
+3-Actualizar la rama master
+4-Crear una rama
+5-Hacer los cambios
+6-Hacer un Pull Request
+7-Fork del repositorio
 
-Fork del repositorio
-Clonar el repositorio
-Actualizar la rama master
-Crear una rama
-Hacer los cambios
-Hacer un Pull Request
-Fork del repositorio
+PASO 1:El primer paso es hacer "Fork" del repositorio.
+(Este paso lo haces desde github)
 
---El primer paso es hacer "Fork" del repositorio.
-
--Clonar el repositorio
+PASO 2:Clonar el repositorio
+(Una vez instalado git y configurado procedes a clonarlo)
 
 -Después de tener el repositorio en nuestra cuenta, seleccionar la dirección del repositorio "SSH o HTTP" y clonar:
-
+(esto se ejecuta desde la consola o desde la aplicacion de github para windows)
 $ git clone https://github.com/User/NombreRepo.git
 
 -Dentro de la carpeta que genera, comprobar la URL del repositorio:
@@ -21,40 +23,42 @@ $ git clone https://github.com/User/NombreRepo.git
 $ git remote -v
 
 -Antes de realizar modificaciones agregar la URL del repositorio original del proyecto:
-
+(importante)
 $ git remote add upstream https://github.com/User/RepoOriginal(Forkeado)
 
 Comprobar
 
 $ git remote -v
 
-Actualizar la rama Master
+PASO 3: Actualizar la rama Master
 
 Antes de empezar a trabajar, obtener los últimos cambios del Repo Original:
-
+(importante)
 $ git pull -r upstream master
 
-Crear una Rama
+PASO 4: Crear una Rama
 
 Para crear una rama usar la opción "checkout" de git:
 
 $ git checkout -b feature-nombre-rama
 
--Hacer cambios
+PASO 5: Hacer cambios
 
 -Realizar todos los cambios que se desea hacer al proyecto.
 
 -Agregar los archivos y hacer un commit
 
 -para agregar todos los archivos
+
 $ git add .
+
 $ git commit -m "aqui escribes tu comentario"
 
 -Después de realizar el commit hacer el push hacia nuestro repositorio indicando la rama que hemos creado.
 
 $ git push origin feature-nombre-rama
 
--Hacer un Pull Request
+PASO 6: -Hacer un Pull Request
 
 -Hacer click en "Compare & Pull Request"
 
@@ -63,4 +67,6 @@ $ git push origin feature-nombre-rama
 -Si todo está bien, enviar con el botón "Send Pull Request". esto se hace en la pagina de github
 
 Esperar a que el duelo del repositorio lo revise, acepte y mezcle en la rama correspondiente.
- EXITOS CON GIT \../ 
+=====================
+				 EXITOS CON GIT 
+				                \../ 
