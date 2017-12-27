@@ -69,4 +69,5 @@ PASO 6: -Hacer un Pull Request
 Esperar a que el duelo del repositorio lo revise, acepte y mezcle en la rama correspondiente.
 =====================
 				 EXITOS CON GIT 
-				                \../ 
+				                \../ :)
+
